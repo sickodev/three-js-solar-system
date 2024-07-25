@@ -1,7 +1,6 @@
-export default {
-    root: "./",
-    build: {
-        outDir: "dist",
-    },
-    publicDir: "public",
-};
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  root: "./",
+  publicDir: "./public",
+});
