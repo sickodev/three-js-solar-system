@@ -1,3 +1,26 @@
 body {
-    margin: 0;
+  margin: 0;
+}
+
+#controls {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  z-index: 100;
+  display: block;
+  width: 400px;
+  color: white;
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  left: 45%;
+}
+
+p {
+  transition: all 0.5s ease-in-out;
+}
+
+#controls > p:hover {
+  font-size: 1.3rem;
 }
