@@ -1,5 +1,19 @@
 body {
   margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  z-index: 100;
+  display: block;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  left: 45%;
 }
 
 #controls {
@@ -10,8 +24,7 @@ body {
   display: block;
   width: 400px;
   color: white;
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
+  font-size: large;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   left: 45%;
@@ -22,5 +35,5 @@ p {
 }
 
 #controls > p:hover {
-  font-size: 1.3rem;
+  font-size: medium;
 }
